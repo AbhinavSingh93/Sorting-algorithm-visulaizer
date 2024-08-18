@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Algorithm Visualizer</title>
+  <link rel="stylesheet" href="/styles\style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<script src="/script\script.js"></script>
+</head>
+<body>
+  <div class="sidenav" id="sidenav-open">
+    <a href="javascript:void(0)" class="sidenav-close"
+     onclick="closeNav()"
+    >&times;</a>
+
+    <div class="sidenav-title nonremove">
+      <img  src="/images\menu.png" class="material-icons">
+      Sorts
+
+      <div class=" seperate"></div>
+      
+    </div>
+    <div class="sidenav-subtitle nonremove">Logarithmic</div>
+    <a href="/html\quicksort.html" class="sidenav-element nonremove">Quick Sort</a>
+    <a href="/html\mergesort.html" class="sidenav-element nonremove">Merge Sort</a>
+    <a href="/html\heapsort.html" class="sidenav-element nonremove">Heap Sort</a>
+
+    <div class="sidenav-subtitle nonremove">Quadratic</div>
+    <a href="/html\Bubblesort.html" class="sidenav-element nonremove">Bubble Sort</a>
+    <a href="/html\selectionsort.html" class="sidenav-element nonremove">Selection Sort</a>
+    <a href="/html\insertionsort.html" class="sidenav-element nonremove">Insertion Sort</a>
+    
+  </div>
+  <div class="topnav">
+      <button class="sidenav-btn"
+      onclick="openNav()">
+        <img src="/images\more.png" class="material-icons1">
+      </button>
+      <div class="topnav-element">Sorting Visualizer</div>
+  </div>
+  
+  <div class="header">
+    <span class="first-header">Sorting</span>
+    <br>
+    <span class="second-header">Visualizer</span>
+  </div>
+
+  <div class="cover">
+    <div class="description-box">
+      <h2 class="header-description">Sorting Algorithms</h2>
+      <div class="description-content">
+        <p>
+          In computer science, a sorting algorithm is an algorithm that puts elements of a list into an order. The most frequently used orders are numerical order and lexicographical order, and either ascending or descending. Efficient sorting is important for optimizing the efficiency of other algorithms that require input data to be in sorted lists. Sorting is also often useful for canonicalizing data and for producing human-readable output.
+        </p>
+        <p>
+          Characteristics of Sorting Algorithms:
+        </p>
+        <ul>
+          <li>
+            Time Complexity:
+            <br>
+            Time complexity, a measure of how long it takes to run an algorithm, is used to categorize sorting algorithms.
+          </li>
+
+          <li>
+            Auxiliary Space :
+            <br>
+            This is the amount of extra space (apart from input array) needed to sort. 
+          </li>
+          
+          <li>
+            Stability :
+            <br>
+            A sorting algorithm is said to be stable if the relative order of equal elements is preserved after sorting.
+          </li>
+          
+          <li>
+            In-Place Sorting:
+            <br>
+            An in-place sorting algorithm is one that does not require additional memory to sort the data.
+          </li>
+
+          <li>
+            Adaptivity:
+            <br>
+            An adaptive sorting algorithm is one that takes advantage of pre-existing order in the data to improve performance. 
+          </li>
+        </ul>
+
+        <p>
+          Applications of Sorting Algorithms:
+        </p>
+        <ul>
+
+          <li>
+            Searching Algorithms:
+            <br>
+            Sorting is often a crucial step in search algorithms like binary search and Ternary Search. A lot of Greedy Algorithms use sorting as a first step to apply Greedy Approach.
+          </li>
+
+          <li>
+            Data management:
+            <br>
+            Sorting data makes it easier to search, retrieve, and analyze. 
+          </li>
+          
+          <li>
+            Database optimization: 
+            <br>
+            Sorting data in databases improves query performance. 
+          </li>
+
+          <li>
+            Machine learning: 
+            <br>
+            Sorting is used to prepare data for training machine learning models. 
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <span class="footer-title" style="font-family:'Jura','Courier New', Courier, monospace"> Sorting Visualizer</span>
+        <br>
+        &emsp;Abhinav Singh
+      </div>
+
+      <div class="footer-content">
+        <span class="footer-title expand">Contacts:</span>
+        <br>
+        <a href="abhinavsingh18813@gmail.com">&emsp;
+        <img src="/images\gmail.png" title="Gmail"
+        alt="abhinavsingh18813@gmail.com" class="gmail-icons"><span style="padding-left:8px">Gmail</span>
+        </a>
+      </div>
+
+      <div class="footer-content">
+        <span class="footer-title">Reference:</span>
+        <br>
+        <a href="#" target="_blank"><img src="/images/Github_icon.png" title="Github"
+        alt="Github" class="github-icons"><span style="padding-left:8px">Github</span>
+        </a>
+        
+        <a href="#" target="_blank"><img src="/images/Wikipedia_icon.png" title="wikipedia"
+          alt="wikipedia" class="wiki-icons"><span style="padding-left:8px">wikipedia</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
